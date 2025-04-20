@@ -1,0 +1,184 @@
+/* ===== Stile generale per tutta la pagina ===== */
+body {
+    background-color: #e6e6e6; /* Sfondo grigio chiaro */
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1, h2, h3 {
+    margin-top: 0;
+}
+
+/* ===== Navbar ===== */
+nav {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #e67e22;
+}
+
+/* ===== Hero Section (Home) ===== */
+.hero {
+    background-image: url("https://static.wixstatic.com/media/295bfd_e21949408e17400d9a593cf2ec69ede5~mv2.jpeg/v1/fill/w_1901,h_749,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/295bfd_e21949408e17400d9a593cf2ec69ede5~mv2.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.hero-content {
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 60px;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 24px;
+}
+
+/* ===== Sezione Generica ===== */
+section {
+    padding: 50px 20px;
+    max-width: 900px;
+    margin: 30px auto;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ===== Sezione Home Specifica ===== */
+.home-section {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.home-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.home-section p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* ===== Sezione Contatti ===== */
+#contatti h2 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#contatti p, #contatti ul {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+#contatti ul {
+    padding-left: 20px;
+}
+
+/* Mappa responsive */
+.map iframe {
+    width: 100%;
+    height: 400px;
+    border: 0;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+/* ===== Sezione Menù ===== */
+#menu {
+    padding: 50px 20px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 40px auto;
+    max-width: 900px;
+}
+
+#menu h2 {
+    font-size: 36px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+/* Categoria */
+.menu-category {
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: #000000;
+    transition: transform 0.2s ease;
+}
+
+.menu-category:hover {
+    transform: scale(1.01);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.menu-category h3 {
+    font-size: 26px;
+    color: #111;
+    margin-bottom: 15px;
+}
+
+.menu-category ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-category ul li {
+    font-size: 18px;
+    margin: 8px 0;
+    color: #000000;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.menu-category ul li:hover {
+    color: #e67e22;
+    text-decoration: underline;
+}
+
+/* ===== Footer ===== */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
